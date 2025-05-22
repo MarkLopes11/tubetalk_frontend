@@ -63,7 +63,7 @@ export default function QuizDialog({ open, onOpenChange }: QuizDialogProps) {
     setIsLoading(true);
 
     try {
-      const response = await fetch("https://9036-115-245-117-34.ngrok-free.app/generate_quiz/", {
+      const response = await fetch("https://2fdb-223-228-136-93.ngrok-free.app/generate_quiz/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ video_id: videoId }),

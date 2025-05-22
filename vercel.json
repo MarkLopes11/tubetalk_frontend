@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/v1/link",
-            "destination": "https://9036-115-245-117-34.ngrok-free.app/link"
+            "destination": "https://2fdb-223-228-136-93.ngrok-free.app/link"
           }
     ],
     "headers": [
